@@ -24,5 +24,18 @@ repositories {
 }
 
 dependencies {
+
     compile("org.springframework.boot:spring-boot-starter-web:$springBootVersion")
+    testCompile("org.springframework.boot:spring-boot-starter-test:$springBootVersion")
 }
+
+
+
+bootRun.environment([
+        "WELCOME_MESSAGE": "Omeaga-3 Mix bags are gone.  She eats them all.",
+])
+
+test.environment([
+        "WELCOME_MESSAGE": "Hello from test",
+])
+
