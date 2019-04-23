@@ -5,5 +5,5 @@ applications:
     routes:
      route: pal-tracker.apps.evans.pal.pivotal.io
     env:
-      WELCOME_MESSAGE: 'Hello, user of my system'
+      WELCOME_MESSAGE: 'Hello, testing my pipeline'
       JBP_CONFIG_OPEN_JDK_JRE: '{ jre: { version: 11.+ } }'
