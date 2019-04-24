@@ -43,6 +43,11 @@ public class TimeEntry {
         this.date = date;
     }
 
+    public long getId() {
+        return timeEntryId;
+    }
+
+
     public int getHours() {
         return hours;
     }
@@ -67,9 +72,6 @@ public class TimeEntry {
         this.timeEntryId = timeEntryId;
     }
 
-    public Long getId() {
-        return timeEntryId;
-    }
 
     @Override
     public boolean equals(Object o) {
